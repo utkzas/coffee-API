@@ -3,13 +3,15 @@ const express = require("express");
 const app = express.Router();
 
 const users = [
-    "Utkarsh Sharma",
-    "Vipul Kaushik",
-    "Gourang Vyas",
-    "Yajur Tuteja",
-    "Sameer Chandanani",
-    "Sanidhay Grover",
-    "Rajat Gupta"
+    "Line the basket of your coffee maker with a filter.",
+    "Grind coffee beans to medium or medium-fine grind size.k",
+    "Bring filtered water to a boil, then let it sit for a minute.",
+    "Pour enough water into the filter to wet it completely, and let it drain into your cup or coffee pot",
+    " Discard the water",
+    "Measure the ground coffee into the wet filter",
+    "Pour in enough water to wet the ground beans and drain into your cup or coffee pot"
+    "pour in the rest of the water",
+    "Serve Hot!"
 ];
 app.use(express.json());
 
